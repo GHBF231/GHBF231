@@ -1,0 +1,74 @@
+body{
+
+    margin: 0px;
+    
+}
+
+header{
+border: 1px solid rgb(0, 0, 0);
+border-radius: 5px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+background-color: black;
+}
+
+.cabeca{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1{
+
+padding-top: 50px;
+display: flex;
+justify-content: center;
+margin-right: 200px;
+
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 35px
+
+}
+
+.area1{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+img{
+height:200px;
+}
+
+.section2{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 30px;   
+}
+
+.outrosV {
+display: flex;
+gap: 10px;
+}
+
+.outrosV img{
+    opacity: 0.5;
+}
+.outrosV img:hover{
+    opacity: 1.0;
+    height: 220px;
+    border: white solid 1px;
+}
